@@ -1,0 +1,142 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background: linear-gradient(135deg, #141e30 0%, #243b55 100%);
+    color: #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* Section Styling */
+.start, .Me, .programmer, .contact {
+    padding: 40px;
+    border-radius: 15px;
+    background: #1f2a40;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    text-align: center;
+}
+
+.start:hover, .Me:hover, .programmer:hover, .contact:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.7);
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #d1d1d1;
+    margin-top: 10px;
+}
+
+/* Image Styling */
+img {
+    max-width: 180px;
+    height: auto;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Video Styling */
+iframe {
+    width: 80%;
+    height: 300px; /* Reduced the height for a smaller video frame */
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Programmer Section Styling */
+.programmer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
+}
+
+.programmer a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #e8e8e8;
+    transition: transform 0.3s;
+    max-width: 300px; /* Increased width for larger images */
+}
+
+.programmer a img {
+    max-width: 250px; /* Further increased size for publication and problem-solving images */
+    margin-bottom: 15px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.programmer a:hover img {
+    transform: scale(1.1);
+}
+
+.programmer a:hover p {
+    color: #a3d2ca;
+}
+
+/* Contact Section Styling */
+.contact h1 {
+    font-size: 2.5em;
+    color: #ffffff;
+}
+
+.contact footer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.contact footer a {
+    font-size: 1.5em;
+    color: #e8e8e8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #2d3b54;
+}
+
+.contact footer a:hover {
+    color: #ffdd40;
+    background-color: #3a4a63;
+    transform: scale(1.1);
+}
