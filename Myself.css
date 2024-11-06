@@ -71,8 +71,8 @@ img:hover {
 
 /* Video Styling */
 iframe {
-    width: 80%;
-    height: 300px; /* Reduced the height for a smaller video frame */
+    width: 30%;
+    height: 125px; /* Reduced the height for a smaller video frame */
     border-radius: 10px;
     margin-top: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -98,7 +98,7 @@ iframe {
 }
 
 .programmer a img {
-    max-width: 250px; /* Further increased size for publication and problem-solving images */
+    max-width: 275px; /* Further increased size for publication and problem-solving images */
     margin-bottom: 15px;
     border-radius: 15px;
     transition: transform 0.3s;
